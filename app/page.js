@@ -1,12 +1,12 @@
 'use client';
-import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2, Instagram, Linkedin } from 'lucide-react';
+import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2 } from 'lucide-react';
 import Link from 'next/link';
 
 export default function LinksPage() {
   const links = [
     {
-      title: 'Consultoria Grátis via IA',
-      description: 'Fale com nosso Orquestrador no Telegram',
+      title: 'Contrate agora falando com nossos agentes',
+      description: 'Fale com nosso time de Agentes no Telegram',
       url: 'https://t.me/virtualplaceiabot',
       icon: <MessageSquare size={24} />,
       color: '#00d1ff'
@@ -40,11 +40,7 @@ export default function LinksPage() {
       
       <main className="links-content">
         <header className="profile-section">
-          <div className="profile-avatar">
-            <div className="avatar-pulse"></div>
-            <img src="/logo.png" alt="Virtual Place" onError={(e) => e.target.src = 'https://api.dicebear.com/7.x/bottts/svg?seed=VirtualPlace'} />
-          </div>
-          <h1 className="profile-name">Virtual Place</h1>
+          <h1 className="profile-name">Virtual<span>Place</span></h1>
           <p className="profile-bio">Construindo Audiência e Autoridade com Inteligência Artificial de Elite.</p>
         </header>
 
@@ -64,11 +60,6 @@ export default function LinksPage() {
         </div>
 
         <footer className="links-footer">
-          <div className="social-links">
-            <a href="#"><Instagram size={20} /></a>
-            <a href="#"><Linkedin size={20} /></a>
-            <a href="#"><Share2 size={20} /></a>
-          </div>
           <p>© 2026 Virtual Place. Todos os direitos reservados.</p>
         </footer>
       </main>
@@ -133,7 +124,7 @@ export default function LinksPage() {
           right: -10px;
           bottom: -10px;
           border-radius: 50%;
-          border: 2px solid var(--primary);
+          border: 2px solid #7000ff;
           animation: pulse 2s infinite;
           opacity: 0.3;
         }
@@ -144,12 +135,16 @@ export default function LinksPage() {
         }
 
         .profile-name {
-          font-size: 2rem;
+          font-size: 2.8rem;
           font-weight: 800;
           margin-bottom: 0.5rem;
-          background: linear-gradient(90deg, #fff, #7000ff);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          letter-spacing: -2px;
+          color: white;
+        }
+
+        .profile-name span {
+          color: #7000ff;
+          margin-left: 2px;
         }
 
         .profile-bio {
