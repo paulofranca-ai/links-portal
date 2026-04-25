@@ -7,7 +7,7 @@ export default function LinksPage() {
     {
       title: 'Autoleads IA',
       description: 'Sistema de Leads com Inteligência Artificial',
-      url: 'https://autoleads-ia.vercel.app',
+      url: 'https://autolead-ia.vercel.app',
       icon: <Zap size={24} />,
       color: '#ffaa00'
     },
