@@ -26,8 +26,8 @@ export default function LinksPage() {
       color: '#00ff88'
     },
     {
-      title: 'Portal Institucional',
-      description: 'Nossa história e visão de futuro',
+      title: 'Soluções Institucionais de Audiovisual e Comunicação com IA',
+      description: 'Nossa expertise em branding e tecnologia',
       url: 'https://lp.autolead.site/institucional',
       icon: <Info size={24} />,
       color: '#ffffff'
