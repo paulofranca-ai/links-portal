@@ -5,13 +5,6 @@ import Link from 'next/link';
 export default function LinksPage() {
   const links = [
     {
-      title: 'Autoleads IA',
-      description: 'Sistema de Leads com Inteligência Artificial',
-      url: 'https://autolead-ia.vercel.app',
-      icon: <Zap size={24} />,
-      color: '#ffaa00'
-    },
-    {
       title: 'Contrate agora falando com nossos agentes',
       description: 'Fale com nosso time de Agentes no Telegram',
       url: 'https://t.me/virtualplaceiabot',
@@ -38,6 +31,13 @@ export default function LinksPage() {
       url: 'https://lp.autolead.site/institucional',
       icon: <Info size={24} />,
       color: '#ffffff'
+    },
+    {
+      title: 'Autoleads IA',
+      description: 'Sistema de Leads com Inteligência Artificial',
+      url: 'https://autolead-ia.vercel.app',
+      icon: <Zap size={24} />,
+      color: '#ffaa00'
     }
   ];
 
