@@ -1,9 +1,16 @@
 'use client';
-import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2 } from 'lucide-react';
+import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2, Zap } from 'lucide-react';
 import Link from 'next/link';
 
 export default function LinksPage() {
   const links = [
+    {
+      title: 'Autoleads IA',
+      description: 'Sistema de Leads com Inteligência Artificial',
+      url: 'https://autoleads-ia.vercel.app',
+      icon: <Zap size={24} />,
+      color: '#ffaa00'
+    },
     {
       title: 'Contrate agora falando com nossos agentes',
       description: 'Fale com nosso time de Agentes no Telegram',
