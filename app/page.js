@@ -1,42 +1,42 @@
 'use client';
-import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2, Zap } from 'lucide-react';
+import { MessageSquare, ShoppingBag, Globe, Info, ArrowRight, Share2, Zap, Camera, Users } from 'lucide-react';
 import Link from 'next/link';
 
 export default function LinksPage() {
   const links = [
     {
-      title: 'Contrate agora falando com nossos agentes',
-      description: 'Fale com nosso time de Agentes no Telegram',
-      url: 'https://t.me/virtualplaceiabot',
-      icon: <MessageSquare size={24} />,
-      color: '#00d1ff'
-    },
-    {
-      title: 'Loja Virtual Place',
-      description: 'Contrate seu Squad de Elite agora',
-      url: 'https://loja.autolead.site',
-      icon: <ShoppingBag size={24} />,
+      title: 'Configuração de Agentes de IA',
+      description: 'Contrate Robôs Autônomos de Atendimento e Execução',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20na%20implementa%C3%A7%C3%A3o%20de%20agentes%20de%20IA',
+      icon: <Zap size={24} />,
       color: '#7000ff'
     },
     {
-      title: 'Landing Page Oficial',
-      description: 'Conheça nossa metodologia de escala',
-      url: 'https://lp.autolead.site',
-      icon: <Globe size={24} />,
+      title: 'Cobertura de Foto e Vídeo para Eventos',
+      description: 'Atendimento de Elite na Região da AMURC',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20cobertura%20de%20eventos',
+      icon: <Camera size={24} />,
       color: '#00ff88'
     },
     {
-      title: 'Soluções Institucionais de Audiovisual e Comunicação com IA',
-      description: 'Nossa expertise em branding e tecnologia',
-      url: 'https://lp.autolead.site/institucional',
-      icon: <Info size={24} />,
+      title: 'Trabalhe Conosco',
+      description: 'Faça parte do time da Virtual Place',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20quero%20fazer%20parte%20da%20VirtualPlace',
+      icon: <Users size={24} />,
+      color: '#00d1ff'
+    },
+    {
+      title: 'Saiba mais sobre a Virtual Place',
+      description: 'Institucional e Projetos de Elite',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20saber%20sobre%20a%20VirtualPlace',
+      icon: <Globe size={24} />,
       color: '#ffffff'
     },
     {
-      title: 'Autoleads IA',
-      description: 'Sistema de Leads com Inteligência Artificial',
-      url: 'https://autolead-ia.vercel.app',
-      icon: <Zap size={24} />,
+      title: 'Soluções Institucionais para Empresas',
+      description: 'Trabalho da VirtualPlace para Instituições',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20saber%20sobre%20o%20trabalho%20da%20VirtualPlace%20para%20institui%C3%A7%C3%B5es',
+      icon: <Info size={24} />,
       color: '#ffaa00'
     }
   ];
