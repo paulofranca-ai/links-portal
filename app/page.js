@@ -19,24 +19,24 @@ export default function LinksPage() {
       color: '#00ff88'
     },
     {
-      title: 'Trabalhe Conosco',
-      description: 'Faça parte do time da Virtual Place',
-      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20quero%20fazer%20parte%20da%20VirtualPlace',
+      title: 'Converse com o Jarvis (Institucional)',
+      description: 'Saiba sobre nosso trabalho para Instituições',
+      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20saber%20sobre%20o%20trabalho%20da%20VirtualPlace%20para%20institui%C3%A7%C3%B5es',
       icon: <Users size={24} />,
       color: '#00d1ff'
     },
     {
-      title: 'Saiba mais sobre a Virtual Place',
-      description: 'Institucional e Projetos de Elite',
-      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20saber%20sobre%20a%20VirtualPlace',
+      title: 'Site - Soluções Institucionais',
+      description: 'Nossa expertise em branding e comunicação',
+      url: 'https://lp.autolead.site/institucional',
       icon: <Globe size={24} />,
       color: '#ffffff'
     },
     {
-      title: 'Soluções Institucionais para Empresas',
-      description: 'Trabalho da VirtualPlace para Instituições',
-      url: 'https://wa.me/5549984101144?text=/bot%20Ol%C3%A1,%20tenho%20interesse%20em%20saber%20sobre%20o%20trabalho%20da%20VirtualPlace%20para%20institui%C3%A7%C3%B5es',
-      icon: <Info size={24} />,
+      title: 'Site - Marketing e IA para Empresas',
+      description: 'Conheça nossa metodologia de escala',
+      url: 'https://lp.autolead.site',
+      icon: <Zap size={24} />,
       color: '#ffaa00'
     }
   ];
